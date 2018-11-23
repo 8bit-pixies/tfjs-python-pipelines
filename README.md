@@ -22,3 +22,8 @@ pip freeze > requirements.txt
 
 This approach will attempt to solve the challenge through running everything via the `script` tag - we'll see how we go.
 
+## Demo
+
+```
+python -m http.server
+```
