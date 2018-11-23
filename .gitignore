@@ -1,4 +1,6 @@
 python/__target__/*.options
+.vscode/*
+python/model/group*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

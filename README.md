@@ -12,11 +12,13 @@ In almost all machine learning models there are three steps:
 2.  Model scoring: process where we train and score our model. This will reside in `model.py`. 
 3.  Decisioning: process where we take our prediction and convert it to plain text output (e.g. predicted sentiment is "Positive - due to reason XYZ with probability X") `decision.py`
 
-
-
-## Transformers
-
-```py
-
 ```
+pip install tensorflow tensorflowjs==0.6.7 keras==2.2.2 scikit-learn numpy==1.15.1 keras-applications==1.0.4 keras-preprocessing==1.0.2 pandas
+pip freeze > requirements.txt
+```
+
+
+## Approach
+
+This approach will attempt to solve the challenge through running everything via the `script` tag - we'll see how we go.
 
