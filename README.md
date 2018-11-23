@@ -24,6 +24,8 @@ This approach will attempt to solve the challenge through running everything via
 
 ## Demo
 
+see `/demo`
+
 ```
 python -m http.server
 ```
