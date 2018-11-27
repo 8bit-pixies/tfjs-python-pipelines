@@ -14,3 +14,7 @@ nd: js
 node:
 	$(foreach var,$(js_sources),make $(var);)
 
+test:
+	./build.sh feature
+	node feature.js
+	python -m nose2
