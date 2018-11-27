@@ -4,16 +4,14 @@ js:
 
 js_sources:= $(shell cd __target__ && find . -name *.js)
 
-cp_package:
-	cp package.json __target__/package.json
-
-nd: js
+nd: 
 	cd __target__	
 	npx babel __target__/$(py).js --out-file $(py).js
-
-node:
-	$(foreach var,$(js_sources),make $(var);)
 
 build:
 	./build.sh $(py)
 	python tfjs_model.py $(py)
+
+clean:
+	rm -r -f *.js
+	rm -r -f __target__/
