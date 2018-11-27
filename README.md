@@ -20,7 +20,12 @@ pip freeze > requirements.txt
 
 ## Approach
 
-This approach will attempt to solve the challenge through running everything via the `script` tag - we'll see how we go.
+This approach will attempt to solve the challenge through running everything via the `script` tag - we'll see how we go. Simpliest example is to try running by:
+
+```
+make py=feature_pipeline build
+node feature_pipeline.js
+```
 
 ## Demo
 
